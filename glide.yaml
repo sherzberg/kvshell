@@ -1,0 +1,22 @@
+package: github.com/sherzberg/kvshell
+import:
+  - package: github.com/abiosoft/ishell
+    ref:     de3dc478464adaace0d6d9513dfd457323e3d223
+  - package: github.com/boltdb/bolt
+    ref:     de3dc478464adaace0d6d9513dfd457323e3d223
+  - package: github.com/flynn/go-shlex
+    ref:     de3dc478464adaace0d6d9513dfd457323e3d223
+  - package: github.com/howeyc/gopass
+    ref:     de3dc478464adaace0d6d9513dfd457323e3d223
+  - package: github.com/ugorji/go
+    ref:     de3dc478464adaace0d6d9513dfd457323e3d223
+  - package: github.com/coreos/go-etcd
+    ref:     de3dc478464adaace0d6d9513dfd457323e3d223
+  - package: github.com/samuel/go-zookeeper
+    ref:     de3dc478464adaace0d6d9513dfd457323e3d223
+  - package: golang.org/x/crypto
+    ref:     de3dc478464adaace0d6d9513dfd457323e3d223
+  - package: github.com/docker/libkv
+    ref:     de3dc478464adaace0d6d9513dfd457323e3d223
+  - package: github.com/hashicorp/consul
+    ref:     de3dc478464adaace0d6d9513dfd457323e3d223
