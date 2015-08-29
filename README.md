@@ -26,6 +26,20 @@ kvshell starting...
 >> exit
 ```
 
+Connecting to a different backend is as easy as changing the scheme on the `--conn` uri:
+
+zookeeper: `zk://hostname:port`
+
+consul: `consul://hostname:port`
+
+etcd: `etcd://hostname:port`
+
+boltdb: `boldb://hostname:port`
+
+You may also specify multiple host addresses with a comma separated list:
+
+ex: `--conn=zk://host1:2181,host2:2181`
+
 ### TODO
 
 See [issues](https://github.com/sherzberg/kvshell/issues)
