@@ -11,7 +11,7 @@ Using the golang toolchain:
 $ go get github.com/sherzberg/kvshell
 ```
 
-TODO: add to github releases
+__Warning__: this method may go away. Stay tuned for released versions.
 
 ### Usage
 
