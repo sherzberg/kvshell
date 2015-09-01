@@ -52,5 +52,18 @@ func buildShell(client store.Store) (*ishell.Shell, error) {
 		return result, nil
 	})
 
+	shell.Register("rm", func(args ...string) (string, error) {
+		if len(args) != 1 {
+			return "", errors.New("Invalid number of args. >> rm path")
+		}
+
+		err := client.Delete(args[0])
+		if err != nil {
+			return "", err
+		}
+		result := fmt.Sprintf("removed: %s", args[0])
+		return result, nil
+	})
+
 	return shell, nil
 }
